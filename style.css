@@ -1,0 +1,65 @@
+.block {
+  display: flex;
+  width: 280px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 38%;
+}
+.bolck {
+  min-width: 50px;
+  height: 50px;
+  background-color: #7c7c7c;
+  margin: 10px;
+}
+.bolck:nth-child(21) {
+  background-color: blue;
+}
+.bolck:nth-child(22) {
+  background-color: blue;
+}
+.bolck:nth-child(24) {
+  background-color: blue;
+}
+.bolck:nth-child(23) {
+  background-color: blue;
+}
+.bolck:nth-child(1n + 21) {
+  background: blue;
+}
+.bolck:nth-child(4n-1) {
+  background-color: red;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background: none;
+  border: none;
+}
+
+button {
+  outline: none;
+  border: 5px solid #6a0e7c;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 40px 200px;
+  color: #6a0e7c;
+  background: #b1200d;
+  font-size: 24px;
+  line-height: 28px;
+  border-radius: 80px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  padding: 45px 185px;
+  border: 5px solid;
+  background: #29083b;
+  color: #b1200d;
+}
+
+button:active {
+  opacity: 0.1;
+}
