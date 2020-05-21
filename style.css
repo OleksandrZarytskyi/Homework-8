@@ -59,7 +59,28 @@ button:hover {
   background: #29083b;
   color: #b1200d;
 }
+.button::before {
+  content: " ";
+  border-top: 2px solid #11af60;
+  width: 200px;
+  height: 8px;
+  text-align: center;
+  margin-top: 46px;
+  border-bottom: 2px solid #11af60;
+  margin-bottom: 50px;
+  margin-right: 46px;
+  opacity: 0.8;
+}
 
-button:active {
-  opacity: 0.1;
+.button::after {
+  content: " ";
+  border-top: 2px solid #11af60;
+  width: 200px;
+  height: 8px;
+  text-align: center;
+  margin-top: 46px;
+  border-bottom: 2px solid #11af60;
+  margin-bottom: 50px;
+  margin-left: 46px;
+  opacity: 0.8;
 }
